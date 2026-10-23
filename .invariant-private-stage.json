@@ -1,0 +1,11 @@
+{
+  "private_staging_only": true,
+  "source_archive_sha256": "5eb2064d2e6725a0710b53d9aa5d8d68f527af3cd21d752f4485af4387c66d40",
+  "package_entry": "PACKAGES/LAB_RESEARCH/rari/GITHUB/rari-omega-reference.zip",
+  "package_sha256": "75a4ffece41bff716055b4635e47e2dc99f302d9b134e0cfbb74006365123cf8",
+  "branch": "invariant-private-stage-20261024",
+  "source_file_count": 30,
+  "github_workflow_files_held": 1,
+  "rights_approved": false,
+  "public_release_authorized": false
+}

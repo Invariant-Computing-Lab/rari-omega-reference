@@ -1,0 +1,39 @@
+{
+  "repo": "rari-omega-reference",
+  "codes": [
+    "G01",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09"
+  ],
+  "commands": [
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  ],
+  "check_cwd": ".",
+  "scope": "Recovered RARI reference methods and original tests. Complete V7 campaign, provider runtime and protected confirmation banks are not packaged as new independent results.",
+  "source_unchanged": true,
+  "status": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+  "owner_approval_required": true,
+  "public_uploaded": false,
+  "source_reference": "See private release registry; source hashes retained.",
+  "last_check": {
+    "repo": "rari-omega-reference",
+    "passed": true,
+    "scope": "Recovered RARI reference methods and original tests. Complete V7 campaign, provider runtime and protected confirmation banks are not packaged as new independent results.",
+    "commands": 1,
+    "readiness": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+    "reason": "Declared local checks passed; scientific, rights and deployment scope remain limited."
+  }
+}

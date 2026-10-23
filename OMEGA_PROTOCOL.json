@@ -1,0 +1,390 @@
+{
+  "completion_rule": "Every declared branch must receive terminal SUPPORT/CHALLENGE/INCONCLUSIVE/NOT_EVALUABLE/UNRESOLVED status. Positive results are not required.",
+  "execution": {
+    "E2B_calls_authorized": 0,
+    "Kimi_calls_authorized": 0,
+    "archive_headroom_bytes": 268435456,
+    "local_cpu_only_for_new_synthetic_and_gop": true,
+    "minimum_free_bytes": 805306368,
+    "network_full_dataset_download_forbidden": true,
+    "per_track_download_cap_bytes": 8589934592,
+    "provider_calls_authorized": 0,
+    "public_publish_authorized": false,
+    "public_source_metadata_access_allowed": true,
+    "raw_cache_read_only": true,
+    "realbio_replay_snapshot_cap_per_track_bytes": 33554432,
+    "realbio_replay_snapshot_cap_total_bytes": 268435456,
+    "synthetic_workspace_budget_bytes": 201326592,
+    "total_new_download_cap_bytes": 42949672960
+  },
+  "gop_sidecar": {
+    "always_unresolved_unless_external_new_evidence": [
+      "UNIVERSAL_U",
+      "LORENTZ_COVARIANCE",
+      "GENERAL_RELATIVITY",
+      "INTERACTING_QFT",
+      "GLOBAL_APPARATUS_CLOSURE",
+      "HUMAN_CLINICAL_RELEVANCE"
+    ],
+    "candidate": "F2a",
+    "core_mutation": false,
+    "finite_tests": [
+      "G1_UNKNOWN_SENSOR_GAIN_GAUGE",
+      "G2_CENTRAL_INVERSE_SQUARE",
+      "G3_QUINTIC_STOCHASTIC_LIFT",
+      "G4_S05_RESOURCE_SATURATION",
+      "G5_S07_TANH_COUPLING",
+      "G6_LEARNED_QUANTUM_CHANNEL_COMPARATOR",
+      "G7_REDUCED_QUANTUM_MEMORY"
+    ],
+    "foundation": "GOP_TOE_FOUNDATION_v1_0",
+    "integration_rule": "Use gop_intake/additive study evidence only; never silently alter frozen core."
+  },
+  "immutability": {
+    "gop_core_write_authorized": false,
+    "gop_expected_core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+    "neurobrain_v4_expected_results_lock_sha256": "1fe80f4d8714ec70368a7307c10ea10f3f165706de42837ef3dafb2e789c70d5",
+    "old_locks_write_authorized": false,
+    "v7_required_status": "COMPLETED_FORMULATED_INDEPENDENTLY_AUDITED"
+  },
+  "purpose": "Single terminal battery R2: prospective fresh synthetic confirmation + nine-track retrospective biological evidence replay/re-audit using retained artifacts + frozen GOP finite-obligation sidecar.",
+  "realbio": {
+    "independent_unit": "subject_or_animal_or_worm; never trial/channel/event unless explicitly supportive",
+    "legacy_v5_status": "No track passed the historical final P1-P5 battery; this is preserved and not rewritten.",
+    "mode": "RETROSPECTIVE_FINAL_V7_TRANSLATION_PLUS_RETAINED_V5_ARTIFACT_REPLAY_WHERE_AVAILABLE",
+    "no_combined_meta_sample": true,
+    "replay_rule": "For each of nine tracks: locate retained V5 authoritative/unit/staging evidence; snapshot only bounded small derived artifacts; attempt frozen scorer replay in isolated copy when executable; inventory read-only raw cache if present; never silently upgrade summary evidence to fresh biological confirmation.",
+    "tracks": [
+      {
+        "dataset": "000458",
+        "expected_units": 23,
+        "id": "T1",
+        "legacy_extracted": 12,
+        "name": "MOUSE_ELECTRICAL",
+        "source": "DANDI",
+        "version": "0.230317.0039"
+      },
+      {
+        "dataset": "ds004696",
+        "expected_units": 8,
+        "id": "T2",
+        "legacy_extracted": 8,
+        "name": "HUMAN_IEEG",
+        "source": "OpenNeuro",
+        "version": "1.0.1"
+      },
+      {
+        "dataset": "ds005779",
+        "expected_units": 19,
+        "id": "T3",
+        "legacy_extracted": 19,
+        "name": "HUMAN_TMSEEG",
+        "source": "OpenNeuro",
+        "version": "1.0.1"
+      },
+      {
+        "dataset": "001260",
+        "expected_units": 43,
+        "id": "T4",
+        "legacy_extracted": 43,
+        "name": "MOUSE_OPTO_PFC",
+        "source": "DANDI",
+        "version": "0.250911.0744"
+      },
+      {
+        "dataset": "000248",
+        "expected_units": 12,
+        "id": "T5",
+        "legacy_extracted": 12,
+        "name": "MOUSE_OPTO_ILLUSION",
+        "source": "DANDI",
+        "version": "0.240502.2344"
+      },
+      {
+        "dataset": "000637",
+        "expected_units": 25,
+        "id": "T6A",
+        "legacy_extracted": 25,
+        "name": "RAT_TFUS_ANESTHETIZED",
+        "source": "DANDI",
+        "version": "0.250829.1249"
+      },
+      {
+        "dataset": "000945",
+        "expected_units": 10,
+        "id": "T6B",
+        "legacy_extracted": 10,
+        "name": "RAT_TFUS_AWAKE",
+        "source": "DANDI",
+        "version": "0.250829.1250"
+      },
+      {
+        "dataset": "000127",
+        "expected_units": 1,
+        "id": "T7",
+        "legacy_extracted": 1,
+        "name": "MACAQUE_BUMP",
+        "source": "DANDI",
+        "version": "0.220113.0359"
+      },
+      {
+        "dataset": "001075",
+        "expected_units": 113,
+        "id": "T8",
+        "legacy_extracted": 108,
+        "name": "WORM_CAUSAL_ATLAS",
+        "source": "DANDI",
+        "version": "0.240930.1859"
+      }
+    ],
+    "translated_endpoints": {
+      "RB0_FROZEN_V5_REPLAY": "isolated replay of retained frozen scorer/evidence where available; terminal PASS/ATTEMPT_FAILED/NOT_AVAILABLE; does not equal new prospective biological validation",
+      "RB1_PERTURBATION_INFORMATION_GAIN": "heldout response/prediction benefit; legacy P1 is historical bridge only",
+      "RB2_EXCITATION_ERROR_RELATION": "requires within-unit intervention variation; otherwise NOT_EVALUABLE",
+      "RB3_COMMON_OBSERVABLE_AGREEMENT": "requires at least two observer/modalities or equivalent repeated views plus wrong-pair control",
+      "RB4_NULL_SENSITIVITY": "wrong-pair/shuffle should not outperform real pairing",
+      "RB5_COVERAGE_TRANSFER": "report empirical coverage; 0.85 synthetic-derived reference gate is secondary, not a biological theorem",
+      "RB6_OUT_OF_UNIT_GENERALIZATION": "leave-one-independent-unit-out where n>=4; T7 remains supportive only"
+    }
+  },
+  "schema": "rari.omega.final.v1",
+  "study_id": "RARI_OMEGA_FINAL_V2",
+  "synthetic": {
+    "hypotheses": {
+      "S10_NULL_SENSITIVITY": {
+        "constant_response_rank_expected": 0,
+        "shuffle_control": true
+      },
+      "S1_PASSIVE_RECONSTRUCTION": {
+        "direction": "balanced_better_than_passive",
+        "practical_margin_relative": 0.1
+      },
+      "S2_PASSIVE_FILTER": {
+        "direction": "balanced_better_than_passive",
+        "practical_margin_relative": 0.1
+      },
+      "S3_ACTIVE_POLICY_EQUIVALENCE": {
+        "absolute_equivalence_margin_filter": 1e-06,
+        "absolute_equivalence_margin_reconstruction": 1e-06,
+        "interval": "bootstrap90"
+      },
+      "S4_REPRESENTATION_PLATEAU": {
+        "K_pair": [
+          11,
+          12
+        ],
+        "interval": "bootstrap90",
+        "relative_equivalence_band": 0.01
+      },
+      "S5_COMMON_OBSERVABLE_AGREEMENT": {
+        "noncollapse_required": true,
+        "same_vs_wrong_required": true
+      },
+      "S6_COVERAGE_TRANSFER": {
+        "minimum_empirical": 0.85,
+        "nominal": 0.9
+      },
+      "S7_EXCITATION_SATURATION": {
+        "heldout_probe_count": 49,
+        "probe_counts": [
+          6,
+          8,
+          10,
+          12,
+          16
+        ]
+      },
+      "S8_OUT_OF_FAMILY_FILTER_SCOPE": {
+        "families": [
+          "clipped",
+          "deadzone",
+          "cubic_mixing",
+          "hysteretic_proxy"
+        ]
+      },
+      "S9_PAIRED_PERTURBATION_TRANSFER": {
+        "perturbation_kinds": 12
+      }
+    },
+    "logical_splits": {
+      "calibration": {
+        "ids": [
+          2048,
+          2049,
+          2050,
+          2051,
+          2052,
+          2053,
+          2054,
+          2055,
+          2056,
+          2057,
+          2058,
+          2059,
+          2060,
+          2061,
+          2062,
+          2063,
+          2064,
+          2065,
+          2066,
+          2067,
+          2068,
+          2069,
+          2070,
+          2071,
+          2072,
+          2073,
+          2074,
+          2075,
+          2076,
+          2077,
+          2078,
+          2079
+        ],
+        "source_split": "calibration"
+      },
+      "confirm_a": {
+        "ids": [
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087,
+          2088,
+          2089,
+          2090,
+          2091,
+          2092,
+          2093,
+          2094,
+          2095,
+          2096,
+          2097,
+          2098,
+          2099,
+          2100,
+          2101,
+          2102,
+          2103,
+          2104,
+          2105,
+          2106,
+          2107,
+          2108,
+          2109,
+          2110,
+          2111
+        ],
+        "source_split": "closed_test"
+      },
+      "confirm_b": {
+        "ids": [
+          2112,
+          2113,
+          2114,
+          2115,
+          2116,
+          2117,
+          2118,
+          2119,
+          2120,
+          2121,
+          2122,
+          2123,
+          2124,
+          2125,
+          2126,
+          2127,
+          2128,
+          2129,
+          2130,
+          2131,
+          2132,
+          2133,
+          2134,
+          2135,
+          2136,
+          2137,
+          2138,
+          2139,
+          2140,
+          2141,
+          2142,
+          2143
+        ],
+        "source_split": "independent_repeat"
+      },
+      "development": {
+        "ids": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031
+        ],
+        "source_split": "development"
+      },
+      "validation": {
+        "ids": [
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039,
+          2040,
+          2041,
+          2042,
+          2043,
+          2044,
+          2045,
+          2046,
+          2047
+        ],
+        "source_split": "validation"
+      }
+    },
+    "seed_label": "RARI_OMEGA_FINAL_V1_PUBLIC_FROZEN_SEED_20261006",
+    "statistics": {
+      "bootstrap_draws": 1999,
+      "bootstrap_seed": 20261006,
+      "family_unit": "world_family",
+      "signflip_draws": 1999,
+      "signflip_seed": 20261007
+    }
+  },
+  "version": "1.1.0"
+}

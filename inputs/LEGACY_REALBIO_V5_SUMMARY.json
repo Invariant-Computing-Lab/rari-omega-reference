@@ -1,0 +1,107 @@
+{
+  "historical_thresholds": {
+    "P1": 0.1,
+    "P2_uncertainty_reduction": 0.2,
+    "P3": 0.05,
+    "P4_each": 0.1,
+    "P5_coverage": 0.95,
+    "holm_alpha": 0.05
+  },
+  "schema": "rari.omega.legacy_realbio_v5.v1",
+  "source_note": "Structured transcription of frozen QF1 Appendix A / V5 real-biological results. This is historical real-data evidence, not a new raw-data reanalysis.",
+  "tracks": {
+    "T1": {
+      "expected": 23,
+      "extracted": 12,
+      "legacy_decision": "NOT_EVALUABLE_INCOMPLETE_SCOPE",
+      "scoreable": 0
+    },
+    "T2": {
+      "P1": 4.199e-06,
+      "P2": -0.001397233,
+      "P3": -0.009438075,
+      "P5": 0.858655296,
+      "expected": 8,
+      "extracted": 8,
+      "legacy_decision": "P1_P2_P3_P5_FAILED_P4_INSUFFICIENT"
+    },
+    "T3": {
+      "P1": 0.000476194,
+      "P2": 1.62e-06,
+      "P3": 0.000744451,
+      "P5": 0.851470762,
+      "expected": 19,
+      "extracted": 19,
+      "legacy_decision": "P1_P2_P3_P5_FAILED_P4_INSUFFICIENT",
+      "legacy_p1_holm_p": 0.17991,
+      "legacy_p1_raw_p": 0.04498
+    },
+    "T4": {
+      "P1": 0.001384751,
+      "P2": -0.009601168,
+      "P3": 0.002839923,
+      "P4_raw": -69.33229,
+      "P4_shuffle": 0.500054,
+      "P4_wrong": -297.929711,
+      "P5": 0.928180506,
+      "expected": 43,
+      "extracted": 43,
+      "legacy_decision": "P1_P5_FAILED"
+    },
+    "T5": {
+      "P1": -0.000403392,
+      "P2": 0.000864737,
+      "P3": -0.258642069,
+      "P4_raw": 0.611482,
+      "P4_shuffle": -12.955656,
+      "P4_wrong": 0.028466,
+      "P5": 0.912862319,
+      "expected": 12,
+      "extracted": 12,
+      "legacy_decision": "P1_P5_FAILED"
+    },
+    "T6A": {
+      "P1": 0.0,
+      "P2": 0.0,
+      "P3": 0.000347019,
+      "P4_raw": 0.705389,
+      "P4_shuffle": -8.728369,
+      "P4_wrong": -0.056236,
+      "P5": 0.938830567,
+      "expected": 25,
+      "extracted": 25,
+      "legacy_decision": "P1_P5_FAILED_INTERVENTION_VARIABILITY_ZERO"
+    },
+    "T6B": {
+      "P1": 0.0,
+      "P2": 0.0,
+      "P3": 0.01016095,
+      "P4_raw": 0.622739,
+      "P4_shuffle": -5.269995,
+      "P4_wrong": 0.458546,
+      "P5": 0.946204728,
+      "expected": 10,
+      "extracted": 10,
+      "legacy_decision": "P1_P5_FAILED_INTERVENTION_VARIABILITY_ZERO"
+    },
+    "T7": {
+      "expected": 1,
+      "extracted": 1,
+      "legacy_decision": "SUPPORTIVE_ONLY_SINGLE_ANIMAL"
+    },
+    "T8": {
+      "P1": -0.000137181,
+      "P2": 0.006772321,
+      "P3": 0.0,
+      "P4_raw": 0.607012,
+      "P4_shuffle": -25.5606,
+      "P4_wrong": -12.996543,
+      "P5": 0.848123003,
+      "expected": 113,
+      "extracted": 108,
+      "legacy_decision": "NOT_CONFIRMATORY_FIVE_EXPLORATORY_ENDPOINTS_FAILED",
+      "scoreable": 23
+    }
+  },
+  "warning": "Historical P codes are not identical to FINAL-V7 NB-H codes or OMEGA RB endpoints; do not merge effect sizes across versions."
+}

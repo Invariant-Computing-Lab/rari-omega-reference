@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying study and this exact code version."
+title: "rari-omega-reference"
+version: "CP03R1"
+authors:
+  - family-names: "Yıldırım"
+    given-names: "Emirhan"

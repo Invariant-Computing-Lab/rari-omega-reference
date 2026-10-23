@@ -1,0 +1,33 @@
+{
+  "schema": "invariant.software_release_verification.v1",
+  "runtime_status": "PASS",
+  "scope": "Recovered RARI reference methods and original tests. Complete V7 campaign, provider runtime and protected confirmation banks are not packaged as new independent results.",
+  "checked_in": "isolated Linux container; Python 3.13.5 / Node 22.16.0 / Chromium 144 where applicable",
+  "actual_server_tested": false,
+  "actual_windows_tested": false,
+  "hosted_platform_tested": false,
+  "public_release_performed": false,
+  "public_rights_approved": false,
+  "target_codes": [
+    "G01",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09"
+  ],
+  "source_class": "archived_source",
+  "evidence_file_in_delivery_audit": "original_github_final_results.json",
+  "software_only_revision": {
+    "status": "PASS",
+    "checked_utc": "2026-10-21T17:08:06.798551+00:00",
+    "log_sha256": "e270224481e0955e6aa7358cbf10a1f764112b4a9c3071977af7283d32e9b11c",
+    "tests_run": 14,
+    "scientific_core_unchanged": true,
+    "nested_transport_archive_filtered": true,
+    "source_environment": "current Linux dependency environment; not independently provisioned",
+    "scientific_revalidation_or_rights_approval": false
+  }
+}

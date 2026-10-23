@@ -1,0 +1,25 @@
+{
+  "repo": "rari-omega-reference",
+  "recovery": "CP03R1",
+  "tests_executed": 1,
+  "passed": true,
+  "scope": "Recovered RARI reference methods and original tests. Complete V7 campaign, provider runtime and protected confirmation banks are not packaged as new independent results.",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 0.865,
+      "stdout": "",
+      "stderr": "test_dynamic_disk_budget (test_omega.Core.test_dynamic_disk_budget) ... ok\ntest_gop_core_declared (test_omega.Core.test_gop_core_declared) ... ok\ntest_gop_pure_controls (test_omega.Core.test_gop_pure_controls) ... ok\ntest_gop_quintic_runs (test_omega.Core.test_gop_quintic_runs) ... ok\ntest_gop_seven_finite (test_omega.Core.test_gop_seven_finite) ... ok\ntest_legacy_track_ids (test_omega.Core.test_legacy_track_ids) ... ok\ntest_localfleet_reset_exact (test_omega.Core.test_localfleet_reset_exact) ... ok\ntest_nine_realbio (test_omega.Core.test_nine_realbio) ... ok\ntest_no_provider_code (test_omega.Core.test_no_provider_code) ... ok\ntest_old_lock_constant (test_omega.Core.test_old_lock_constant) ... ok\ntest_phase_label_source (test_omega.Core.test_phase_label_source) ... ok\ntest_protocol_terminal (test_omega.Core.test_protocol_terminal) ... ok\ntest_realbio_no_full_download (test_omega.Core.test_realbio_no_full_download) ... ok\ntest_ten_synth_cards_declared (test_omega.Core.test_ten_synth_cards_declared) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.126s\n\nOK\n"
+    }
+  ],
+  "generated_result_hashes": {}
+}

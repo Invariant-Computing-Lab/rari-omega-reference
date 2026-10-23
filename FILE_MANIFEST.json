@@ -1,0 +1,137 @@
+[
+  {
+    "path": ".github/workflows/source-check.yml",
+    "bytes": 282,
+    "sha256": "ee3916cd30ed52bbdf5f183c874e542fb06f07f073c5434ab1a43a991fc760b0"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 210,
+    "sha256": "4d6e3253c58b1c9e13e6e76181a6e84a2a1e351a4f0356e41bad113d1ea139be"
+  },
+  {
+    "path": "DEPENDENCIES_AND_CHECKS.md",
+    "bytes": 508,
+    "sha256": "55b7c5464933249aeeb4d189b747b0c53c6cb23252becc18d244d8bb6f5b2f89"
+  },
+  {
+    "path": "OMEGA_PROTOCOL.json",
+    "bytes": 10575,
+    "sha256": "d355faa9ad652e932c37852a9159e69f2b6325faa14e6017b0d7500812bbe0e9"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1911,
+    "sha256": "d6398a562ab31c57e2dd1f534c61d1ba48078acffa5a984813d8768d1c63b49d"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "bytes": 215,
+    "sha256": "ff1d760ca9965999eb8e3b81b9eab0c150f3ef3ff9482fa22ad6de93bc938326"
+  },
+  {
+    "path": "RELEASE_SPEC.json",
+    "bytes": 1141,
+    "sha256": "612db7d498ba9c7168549703692dea7c5583e1f271305c4ab7963d6dabaa45fe"
+  },
+  {
+    "path": "checks/RESULT.json",
+    "bytes": 1718,
+    "sha256": "d9d614e40c3a3c9ab259b92b13e622a3bdaa115271652367951ab22f097cefbd"
+  },
+  {
+    "path": "inputs/GOP_TOE_FOUNDATION_v1_0.zip",
+    "bytes": 18773870,
+    "sha256": "9598a41c0c928f68c27cc2ed9728fc00f2967c811bc9f30e792d0ddcda34f208"
+  },
+  {
+    "path": "inputs/LEGACY_REALBIO_V5_SUMMARY.json",
+    "bytes": 2868,
+    "sha256": "270b077b004aafaf63f5965569f0d0c2a7f1a5c39dbb96e1f1fb97a8a8dddf62"
+  },
+  {
+    "path": "omega_common.py",
+    "bytes": 5719,
+    "sha256": "214defeaedc5f93cb8bf3fb1f36391a8ea52cb6393a03e5992a6c96103ea3a3c"
+  },
+  {
+    "path": "omega_engine.py",
+    "bytes": 5261,
+    "sha256": "31cbe6a471bc760c648aba0c46f7a38a33a17b41d619f55c02c78a84919ee463"
+  },
+  {
+    "path": "omega_gop.py",
+    "bytes": 12796,
+    "sha256": "9904b80bca3dbd9f194deb6cd8ee7bd4842334914c2aab49052a8f16b1ac5aa0"
+  },
+  {
+    "path": "omega_launch.py",
+    "bytes": 2567,
+    "sha256": "8282c54b0444c82fbf09e78afb5b9a91e5efdcc94b9d86e247d51493caa03235"
+  },
+  {
+    "path": "omega_localfleet.py",
+    "bytes": 1114,
+    "sha256": "9c7d85786542032df4590bfd0e94f463e119432aa4b88742a51351f3d912d037"
+  },
+  {
+    "path": "omega_realbio.py",
+    "bytes": 11697,
+    "sha256": "da0f6947317637bac35ddb6a8ddca09cd278a4da141539a975af9372cc1d6e66"
+  },
+  {
+    "path": "omega_synth.py",
+    "bytes": 19835,
+    "sha256": "1c3d9adb83c7b15985dd0e4c071ec6d383af17b89ac61328f90921eb1d2a087d"
+  },
+  {
+    "path": "reference/rari_neurobrain/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference/rari_neurobrain/evaluation.py",
+    "bytes": 6460,
+    "sha256": "1676d76cd37aca58b98b46f00debac1ebec901afa8f1a4b4650bbc524cafa0ad"
+  },
+  {
+    "path": "reference/rari_neurobrain/experiment.py",
+    "bytes": 9322,
+    "sha256": "4f9e6d875723328ac4d7fe53c815cd87cd04b07907fd1e80252e71913a154854"
+  },
+  {
+    "path": "reference/rari_neurobrain/records.py",
+    "bytes": 1780,
+    "sha256": "0d19f628664533f8ecc8cf670570115434ecb69c86fdced5f331b75d9b6606d3"
+  },
+  {
+    "path": "reference/rari_neurobrain/science.py",
+    "bytes": 7740,
+    "sha256": "75711bc5422212820de951203adb0afe96d56d0ffad2a42f755740f6edb44a47"
+  },
+  {
+    "path": "reference/rari_neurobrain/subject.py",
+    "bytes": 6961,
+    "sha256": "fac2206d94377eb383f76888daf078353013214d130ead62ecd1032110af5d4d"
+  },
+  {
+    "path": "reference/rari_neurobrain/world.py",
+    "bytes": 2814,
+    "sha256": "037a1d0eb2d8c3c65ca41005969c5e9bb9c749c6904ba144245d6a36033055fd"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "30fd64d011c61147beeecfc09ce2a1a425f5a645e0e904d7907df8952931ad46"
+  },
+  {
+    "path": "run_checks.py",
+    "bytes": 2366,
+    "sha256": "9a59bff276aad8abeba201a01fa2a29525db6af9e71ebb83a58a7cc6cea56990"
+  },
+  {
+    "path": "tests/test_omega.py",
+    "bytes": 3473,
+    "sha256": "aed3f3ef77460672f67d1479399fc86abfb593e75604c622a9dc32390fa33d6d"
+  }
+]
